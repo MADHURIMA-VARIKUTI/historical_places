@@ -1,0 +1,161 @@
+*{
+    border-radius: 2px;
+    border-width: 2px;
+   
+   
+}
+#maindiv{
+    display:grid;
+    grid-template-areas: 
+    'a1 a1 a1 a1 a1 a1'
+    'b1 b1 b1 b1 b1 b1'
+    'c1 c1 c1 c1 c1 c1'
+    'd1 d1 d1 d1 d1 d1'
+    'e1 e1 e1 e1 e1 e1'
+    'f1 f1 f1 f1 f1 f1'
+    'g1 g1 g1 g1 g1 g1'
+    'h1 h1 h1 h1 h1 h1'
+    'i1 i1 i1 i1 i1 i1'
+    'j1 j1 j1 j1 j1 j1'
+    'k1 k1 k1 k1 k1 k1'
+    ; 
+    /* 
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    */
+    text-align: center;
+    font-size: 30px;
+    text-decoration: wavy;
+box-sizing: content-box;
+   border-style: double;
+   border-right: 5px;
+   
+}
+
+a:link, a:visited {
+    background-color: #c6908c;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display:list-item;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(129, 61, 61);
+  }
+b{
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px burlywood;
+   
+}
+p{
+    text-align: left;
+    padding-left: 40%;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    color:black;
+    text-transform: capitalize;
+    text-shadow: 1px 1px rgb(118, 96, 96);
+   
+    
+    /* background-image: linear-gradient(rgb(226, 182, 189),rgb(182, 207, 255),rgb(130, 92, 80),rgb(240, 195, 240),rgb(206, 250, 206),rgb(28, 28, 8)); */
+   
+}
+.sd1{grid-area: a1;
+    
+   background-image: url("https://th.bing.com/th/id/OIP.4F_XSCgbRAaYoVvPRq-7MAHaFS?pid=ImgDet&rs=1") ;
+   background-position: 0px left ;
+   background-repeat: no-repeat;
+   background-size:35%;
+   background-attachment:inherit;
+   background-color: rgba(254, 219, 231, 0.1);
+
+ 
+}
+.sd2{grid-area: b1;
+    background-image: url("https://th.bing.com/th/id/R.6fffa136b2e042e9ed1ea91c41f43c77?rik=%2bmLVbnvXJSBwjw&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-10%2fQutub-Minar-New-Delhi-Wallpaper-28428.jpg&ehk=l8CC9RzqNpkf%2f%2fttPoG%2fHAXa4aOSar68dHMFOxjSCF0%3d&risl=&pid=ImgRaw&r=0");
+   background-position: 0px left ; 
+   background-repeat:no-repeat;
+   background-size:35%;
+   background-attachment:scroll;
+   background-color: rgba(11, 64, 64, 0.1);
+   
+   
+    
+}
+.sd3{grid-area: c1;
+   background-image: url("https://media.istockphoto.com/photos/hawa-mahal-jaipur-india-picture-id482557081?k=6&m=482557081&s=170667a&w=0&h=Rwjc81fNgf7sDMA3qIwiRzuBqF2wbE3O5a581uCy5Rs=");
+   background-position: 0px left ; 
+   background-repeat:no-repeat;
+   background-size:35%;
+   background-attachment:scroll;
+   background-color: rgb(251, 145, 145,0.1);
+}
+.sd4{grid-area: d1;
+    background-image: url("https://www.moxon.net/images/india/1600/mysore1.jpg");
+    background-position: 0px left ; 
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-attachment:scroll;
+    background-color: rgb(111, 90, 36,0.1);
+}
+.sd5{grid-area: e1;
+   background-image: url("https://www.worldatlas.com/r/w1200/upload/ff/49/57/shutterstock-1509720656.jpg");
+   background-position: 0px left ; 
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-attachment:scroll;
+    background-color: rgba(97, 174, 218, 0.1);
+   
+}
+.sd6{grid-area: f1;
+   background-image: url("https://wallpaperaccess.com/full/4495586.jpg");
+   background-position: 0px left ; 
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-attachment:scroll;
+    background-color: rgba(93, 1, 1,0.1);
+
+}
+.sd7{grid-area: g1;
+  background-image: url("https://assets.cntraveller.in/photos/60c07fa11393a40ce8d810b0/master/pass/D8R9MT.jpg");
+  background-position: 0px left ; 
+  background-repeat:no-repeat;
+  background-size:35%;
+  background-attachment:scroll;
+    background-color:rgb(126, 104, 249,0.1);
+}
+.sd8{grid-area: h1;
+   background-image: url("https://1.bp.blogspot.com/-4geBiuJieWs/YFs-LKBAhXI/AAAAAAAABRU/zQU0VrFxQvkNaThtkPWWpQTOa0EWJjXDQCLcBGAsYHQ/s799/22673539709_397d580147_c.jpg");
+   background-position: 0px left ; 
+   background-repeat:no-repeat;
+   background-size:35%;
+   background-attachment:scroll;
+   background-color: rgb(95, 227, 183,0.1);
+   
+}
+.sd9{grid-area: i1;
+    background-image: url("https://i.pinimg.com/originals/e2/d5/22/e2d5223855295fe8c29623885cacc5ff.jpg");
+    background-position: 0px left ; 
+   background-repeat:no-repeat;
+   background-size:35%;
+   background-attachment:scroll;
+   background-color: rgb(251, 145, 145,0.1);
+}
+.sd10{grid-area: j1;
+    background-image: url("https://th.bing.com/th/id/R.47c932962b0103f134f796425d535322?rik=WGaGruG%2bAflg2Q&riu=http%3a%2f%2f2.bp.blogspot.com%2f-KifxMXhY4Hc%2fTolnA-xZXfI%2fAAAAAAAABJc%2fjn-VfWerSKc%2fs1600%2fMadurai-Meenakshi-Amman-Temple-at-Dark-evening.jpg&ehk=isNQql9a7Lf12%2feGM8c8zdJFA9zbwTApnis6NrqEzH8%3d&risl=&pid=ImgRaw&r=0");
+    background-position: 0px left ; 
+   background-repeat:no-repeat;
+   background-size:35%;
+   background-attachment:scroll;
+   background-color: rgba(11, 64, 64, 0.1);
+}
+footer{
+    font-size: medium;
+    /* margin-left: 79%; */
+    background-color: black;
+}
